@@ -1,0 +1,13 @@
+# Ignorar credenciais do Google Cloud
+credenciais.json
+token.json
+
+# Ignorar arquivos gerados pelo PyInstaller
+build/
+dist/
+*.spec
+*.exe
+
+# Ignorar arquivos de cache do Python
+__pycache__/
+*.pyc
