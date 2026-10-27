@@ -161,7 +161,7 @@ def executar_automacao_em_massa(data_filtro):
             
             # ATUALIZAÇÃO AO VIVO NO GOOGLE SHEETS
             planilha_geral.update_cell(curso["linha"], 8, total_planilha)
-            planilha_geral.update_cell(curso["linha"], 19, qtd_ouvintes)
+            planilha_geral.update_cell(curso["linha"], 20, qtd_ouvintes)
             
             print(f" -> [SUCESSO] Linha {curso['linha']} atualizada na nuvem: Total={total_planilha} | Ouvintes={qtd_ouvintes}")
         # --- FIM DO LOOP ---
